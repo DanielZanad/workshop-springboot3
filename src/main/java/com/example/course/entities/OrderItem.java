@@ -31,19 +31,19 @@ public class OrderItem implements Serializable {
     }
 
     @JsonIgnore
-    public Order getOrder(){
+    public Order getOrder() {
         return this.id.getOrder();
     }
 
-    public void setOrder(Order order){
+    public void setOrder(Order order) {
         this.id.setOrder(order);
     }
 
-    public Product getProduct(){
+    public Product getProduct() {
         return this.id.getProduct();
     }
 
-    public void setProduct(Product product){
+    public void setProduct(Product product) {
         this.id.setProduct(product);
     }
 
